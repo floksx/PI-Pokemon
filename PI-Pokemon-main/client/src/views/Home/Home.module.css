@@ -1,0 +1,53 @@
+.papiContenedor{
+    background-image: url('../../assets/Inkedbackground_LI.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+}
+
+.selectContainer {
+    display: flex;
+    margin: 0px 15px;
+    align-items: center;
+    justify-content: center;
+}
+/* .divContainer {
+    
+} */
+.button {
+    margin: 0px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+    background-color: rgb(87, 85, 85);
+    color: white;
+    -webkit-box-shadow: 4px 5px 7px 1px rgba(0,0,0,0.77); 
+    box-shadow: 4px 5px 7px 1px rgba(0,0,0,0.77);
+}
+/* .label{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    margin: 5%;
+} */
+/* .selectFilters { */
+    /* border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #566ef7;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    color: #566ef7;
+    font-size: 14px;
+    width: 60%; */
+    /* display: flex;
+    float: left;
+    gap: 3rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+/* .order{
+    display: flexbox;
+}
+.h1{
+    color: white;
+} */
