@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux"; // importamos el provider
 import { store } from "./redux/Store"; 
+
 // Importar los estilos de materialize para que funcione correctamente con react
 
 ReactDOM.render(
