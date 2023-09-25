@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { postPokemon, getTypes } from "../../redux/Actions";
 import style from "../../views/Create/Create.module.css";
-import { useHistory } from "react-router-dom";
+//import { useHistory } from "react-router-dom";
 
 const Create = () => {
   const [input, setInput] = useState({
@@ -27,7 +27,7 @@ const Create = () => {
   });
 
   const dispatch = useDispatch();
-  const history = useHistory();
+//const history = useHistory();
   const types = useSelector((state) => state.types);
   
 
@@ -97,7 +97,7 @@ const Create = () => {
     try {
       dispatch(postPokemon(input));
       alert("The pokemon has been created successfully")
-      history.push("/home")
+      //history.push("/home")
     }
     catch {
       alert('Has been an error');
